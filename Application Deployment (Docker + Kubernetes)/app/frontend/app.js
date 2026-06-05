@@ -1,1 +1,8 @@
+const express = require("express");
+const app = express();
 
+app.get("/", (req, res) => {
+  res.send("CloudMaven DevOps Assessment");
+});
+
+app.listen(3000);
